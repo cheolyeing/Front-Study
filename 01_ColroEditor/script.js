@@ -12,7 +12,6 @@ for(var i=0; i<NUM_OF_BUTTONS; i++) {
 
 function click(c) {
     result.style.backgroundColor = c;
-    result.innerHTML = c;
 }
 
 colorButtons[0].onclick = () => {click(COLORS_ENG[0])}
