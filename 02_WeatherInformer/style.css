@@ -1,0 +1,65 @@
+.current-location {
+  display: inline;
+}
+
+.refresh-location {
+  display: inline;
+}
+
+.main-container {
+  position: static;
+  width: 980px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.weather-container {
+  position: inherit;
+  width: 980px;
+  background-color: teal;
+  height: 1000px;
+}
+
+.info-container {
+  position: relative;
+}
+
+.module-info {
+  float: left;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  background-color: orange;
+}
+
+.location-container {
+  float: left;
+  display: inline-block;
+  width: 780px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  background-color: purple;
+}
+
+.module-fold {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: skyblue;
+}
+
+.weather-today {
+  width: 980px;
+  height: 200px;
+  background-color: yellow;
+}
