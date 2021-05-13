@@ -56,18 +56,18 @@ function getLocation(latitude, longitude) {
 function onSuccess(res) {
   var weatherDay = document.getElementsByClassName("weather-day");
 
-  for (var i = 0; i < 5; i++) {
-    const TEMP_AVG = res.daily[i].temp.day;
-    const TEMP_HIGH = res.daily[i].temp.max;
-    const TEMP_LOW = res.daily[i].temp.min;
+  // for (var i = 0; i < 5; i++) {
+  //   const TEMP_AVG = res.daily[i].temp.day;
+  //   const TEMP_HIGH = res.daily[i].temp.max;
+  //   const TEMP_LOW = res.daily[i].temp.min;
 
-    weatherDay[i].getElementsByClassName("temperature-avg")[0].innerHTML =
-      TEMP_AVG + "°C";
-    weatherDay[i].getElementsByClassName("temperature-high")[0].innerHTML =
-      TEMP_HIGH + "°C";
-    weatherDay[i].getElementsByClassName("temperature-low")[0].innerHTML =
-      TEMP_LOW + "°C";
-  }
+  //   weatherDay[i].getElementsByClassName("temperature-avg")[0].innerHTML =
+  //     TEMP_AVG + "°C";
+  //   weatherDay[i].getElementsByClassName("temperature-high")[0].innerHTML =
+  //     TEMP_HIGH + "°C";
+  //   weatherDay[i].getElementsByClassName("temperature-low")[0].innerHTML =
+  //     TEMP_LOW + "°C";
+  // }
 
   console.log("#### THIS IS RESPONSE ####");
   console.log(res);
